@@ -1,0 +1,10 @@
+.venv/
+.env
+__pycache__/
+.DS_Store
+
+# Ignore the Chroma database folder
+semantic_search/chroma_langchain_db/
+
+# Ignore the PDF data file
+semantic_search/*.pdf
